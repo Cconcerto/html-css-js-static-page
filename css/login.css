@@ -1,0 +1,64 @@
+#content {
+    text-align: center;
+}
+#login, #register {
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 40px 50px;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    color: #3f5965;
+}
+#content h1 {
+    color: #3f5965;
+    margin-top: 100px;
+    
+}
+#content input {
+    border: 0;
+    padding: 10px;
+    border-bottom: 1px solid #3f5965;
+    background-color: #00000000;
+    color: #3f5965;
+}
+#content button {
+    margin-top: 20px;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #3f5965;
+    color: #ede5dc;
+}
+.confirm_pass {
+    position: relative;
+}
+#warning {
+    visibility: hidden;
+    width: 150px;
+    color: #9d1420;
+    background-color: #ede5dc;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 10px;
+
+    /* 定位 */
+    position: absolute;
+    z-index: 1;
+    left: 150px;
+}
+#warning::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent#ede5dc transparent;
+}
+#remain {
+    margin: 50px 0 300px 0;
+}
